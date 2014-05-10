@@ -1920,7 +1920,7 @@ static int ultraUnlock(){
 
 	char *Line = p_response->p_intermediates->line;
 	if(strstr(Line, "ICE2_MODEM_06.15.00") != NULL) {
-                at_send_command(bb061500, NULL);
+		at_send_command(bb061500, NULL);
 	} else if(strstr(Line, "ICE2_MODEM_05.13.04") != NULL) {
 		at_send_command(bb051304, NULL);
 	} else if(strstr(Line, "ICE2_MODEM_05.12.01") != NULL) {

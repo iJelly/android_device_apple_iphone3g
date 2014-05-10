@@ -21,7 +21,7 @@ TARGET_PROVIDES_INIT_TARGET_RC := true
 #TODO: implement of recovery image
 #TARGET_BOARD_PLATFORM := s5l8900
 #TARGET_BOOTLOADER_BOARD_NAME := IPHONE3G
-#TARGET_RECOVERY_INITRC := device/apple/iphone3G/common/recovery.rc
+#TARGET_RECOVERY_INITRC := device/apple/iphone3g/common/recovery.rc
 TARGET_PROVIDES_MEDIASERVER := true
 
 BOARD_MOBILEDATA_INTERFACE_NAME = "pdp0"
@@ -88,12 +88,12 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 # Recovery
 TARGET_USERIMAGES_USE_EXT4 := true
 #TODO: when (one day) recovery stuff will be added, use custom mappings
-#BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/apple/iphone3G/recovery/recovery_ui.c
+#BOARD_CUSTOM_RECOVERY_KEYMAPPING := device/apple/iphone3g/recovery/recovery_ui.c
 #BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 
 #TODO
-#BOARD_CUSTOM_BOOTIMG_MK := device/apple/iphone3G/common/shbootimg.mk
+#BOARD_CUSTOM_BOOTIMG_MK := device/apple/iphone3g/common/shbootimg.mk
 
 # assert
 #TARGET_OTA_ASSERT_DEVICE := IPHONE3G
